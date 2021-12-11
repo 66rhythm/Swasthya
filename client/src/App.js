@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.css";
 import Navbar from "./components/navbar";
-import Footer from "./components/footer";
+import Footer from "./components/footer/Footer";
 import Home from "./pages/Home";
 import DoctorLogin from "./pages/DoctorLogin";
 import NewPrescriptionDoctor from "./pages/NewPrescriptionDoctor";
